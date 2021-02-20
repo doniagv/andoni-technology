@@ -2,8 +2,33 @@
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 100vh;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
   background-color: #264653;
+}
+
+.Hero img {
+  max-width: 80%;
+  margin: 0 0.8rem;
+}
+
+.Button-Do {
+  margin-top: 5rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+  background-color: #2a9d8f;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.384);
+}
+
+.Button-Do:hover {
+  background-color: #e76f51;
 }
