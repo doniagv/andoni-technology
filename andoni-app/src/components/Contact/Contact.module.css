@@ -1,0 +1,40 @@
+.ContactSection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #264653;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.Title {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.Titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Subtitle {
+  font-weight: 300;
+  color: white;
+  padding-bottom: 5rem;
+}
+
+.SocialCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.SocialCard {
+  padding: 0 6rem;
+}
