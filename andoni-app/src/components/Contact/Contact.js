@@ -8,7 +8,6 @@ const Contact = () => {
     <div className={styles.ContactSection}>
       <div className={styles.Titles}>
         <h2 className={styles.Title}>Get in touch!</h2>
-        <h3 className={styles.Subtitle}>Contact me if you want a quote</h3>
       </div>
       <div className={styles.SocialCards}>
         <div>
@@ -17,11 +16,27 @@ const Contact = () => {
         </div>
         <div className={styles.SocialCard}>
           <AiOutlineGithub size="50" />
-          <p>doniagv</p>
+          <p>
+            <a
+              href="https://github.com/doniagv"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              doniagv
+            </a>
+          </p>
         </div>
         <div>
           <AiFillLinkedin size="50" />
-          <p>Javier González</p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/javier-andoni-gonz%C3%A1lez-v%C3%A1zquez-852572124/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Javier González
+            </a>
+          </p>
         </div>
       </div>
     </div>

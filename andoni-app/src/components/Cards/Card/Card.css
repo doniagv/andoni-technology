@@ -55,3 +55,8 @@
   font-size: 18px;
   font-weight: 500;
 }
+
+.desc {
+  padding: 0.6rem;
+  text-align: center;
+}

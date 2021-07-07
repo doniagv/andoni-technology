@@ -12,37 +12,41 @@ const cardsData = [
   {
     illustration: <WebSvg />,
     skill: "Front-end",
-    description: "Description",
+    description: "Javascript, HTML and CSS skills for the front-end.",
     level: "Advanced",
   },
   {
     illustration: <BackSvg />,
     skill: "Back-end",
-    description: "Description",
+    description:
+      "NodeJs knowledge for the back-end of websites, including npm and packages like express, mongoose, axios and more.",
     level: "Advanced",
   },
   {
     illustration: <ReactSvg />,
     skill: "Reactjs",
-    description: "Description",
+    description:
+      "Great experience with Reactjs and also with Nextjs framework.",
     level: "Advanced",
   },
   {
     illustration: <JavascriptSvg />,
     skill: "Javascript",
-    description: "Description",
+    description: "Knowledge of modern and advanced javascript es6 features.",
     level: "Advanced",
   },
   {
     illustration: <WordpressSvg />,
     skill: "Wordpress",
-    description: "Description",
+    description:
+      "Experience with the creation of wordpress websites and migration.  ",
     level: "Advanced",
   },
   {
     illustration: <ShopSvg />,
     skill: "Woocommerce",
-    description: "Description",
+    description:
+      "Experience with woocommerce sites and personalization of the store design.",
     level: "Advanced",
   },
 ];
